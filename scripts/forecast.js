@@ -22,9 +22,9 @@ const getCity = async (city) => {
     return data[0];
 };
 
-getCity('tirana')
-    .then(data => {
-        return getWeather(data.Key);
-    }).then(data => {
-        console.log(data);
-    }).catch(err => console.log(err));
+// getCity('tirana')
+//     .then(data => {
+//         return getWeather(data.Key);
+//     }).then(data => {
+//         console.log(data);
+//     }).catch(err => console.log(err));
