@@ -5,6 +5,7 @@ const updateCity = async (city) => {
     const weather = await getWeather(cityDets.Key);
 
     return {
+        // When the property name is the same as the value we could deleted 1 of them and it would still work. It is called object shorthand notation
         cityDets: cityDets,
         weather: weather
     };
